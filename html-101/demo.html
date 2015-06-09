@@ -1,0 +1,38 @@
+
+
+
+
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"> </script>
+
+
+
+<div style="background-color:red">
+    First div
+</div>
+<div id="guy"  style="background-color:blue">
+    This is a div
+</div>
+
+This is a line <span style="background-color:green"> with span </span> to display inline
+
+<button>Click me</button>
+
+<ul>
+    <li>first item</li>
+    <li>second item</li>
+</ul>
+
+
+<script>
+
+    $(function(){
+        $('button').click(function(){
+
+            $('ul li').remove();
+        });
+
+        $('button').click();
+    })
+
+</script>
